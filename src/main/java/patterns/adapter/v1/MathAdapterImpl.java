@@ -8,7 +8,11 @@ public class MathAdapterImpl implements MathAdapter{
 
     @Override
     public Float half(Float value) {
+<<<<<<< HEAD
         System.out.println("half 함수 호출");
+=======
+        System.out.println("half 함수 호출!!");
+>>>>>>> origin/main
         return (float)Math.half(value.doubleValue());
     }
 }
