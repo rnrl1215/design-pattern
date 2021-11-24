@@ -5,6 +5,7 @@ import patterns.factorymethod.coffee.*;
 public class CoffeeMachine extends CoffeeFactory {
     @Override
     Coffee makeCoffee(CoffeeType type) {
+        Coffee coffee;
         switch (type) {
             case LATTE:
                 return new Lattee();
