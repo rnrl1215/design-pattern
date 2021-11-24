@@ -11,7 +11,7 @@ public class Main {
         latte.makeCoffee();
         System.out.println("커피가격: "+latte.getPrice());
 
-        System.out.println(" ");
+        System.out.println("  ");
 
         Coffee coldBrew = coffeeMachine.makeCoffee(CoffeeType.COLDEBREW);
         coldBrew.makeCoffee();
