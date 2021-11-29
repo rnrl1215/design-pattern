@@ -1,8 +1,8 @@
 package patterns.abstractfacotry.bmw;
 
-import patterns.abstractfacotry.car.Body;
+import patterns.abstractfacotry.car.Frame;
 
-public class BMWBody implements Body {
+public class BMWFrame implements Frame {
     @Override
     public void info() {
         System.out.println("BMW 바디");

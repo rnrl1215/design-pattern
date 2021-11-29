@@ -1,5 +1,5 @@
 package patterns.abstractfacotry.car;
 
-public interface Body {
+public interface Frame {
      void info();
 }

@@ -1,14 +1,14 @@
 package patterns.abstractfacotry.benz;
 
-import patterns.abstractfacotry.car.Body;
+import patterns.abstractfacotry.car.Frame;
 import patterns.abstractfacotry.car.CarFactory;
 import patterns.abstractfacotry.car.Engine;
 import patterns.abstractfacotry.car.Wheel;
 
 public class BenzFactory implements CarFactory {
     @Override
-    public Body createFrame() {
-        return new BenzBody();
+    public Frame createFrame() {
+        return new BenzFrame();
     }
 
     @Override
