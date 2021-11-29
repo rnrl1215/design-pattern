@@ -7,7 +7,7 @@ import patterns.abstractfacotry.car.Wheel;
 
 public class BMWFactory implements CarFactory {
     @Override
-    public Body createBody() {
+    public Body createFrame() {
         return new BMWBody();
     }
 

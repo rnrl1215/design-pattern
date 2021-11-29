@@ -13,7 +13,7 @@ public class Main {
         CarFactory carFactory = new BenzFactory();
         //CarFactory carFactory = new BMWFactory();
 
-        Body body = carFactory.createBody();
+        Body body = carFactory.createFrame();
         Wheel wheel = carFactory.createWheel();
         Engine engine = carFactory.createEngine();
 

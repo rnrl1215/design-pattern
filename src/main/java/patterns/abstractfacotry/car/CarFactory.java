@@ -1,7 +1,7 @@
 package patterns.abstractfacotry.car;
 
 public interface CarFactory {
-    public Body createBody();
+    public Body createFrame();
     public Wheel createWheel();
     public Engine createEngine();
 }
