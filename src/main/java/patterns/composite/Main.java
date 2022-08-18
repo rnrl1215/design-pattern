@@ -23,5 +23,7 @@ public class Main {
         System.out.println("RootFolderSize: " + root.getSize());
         System.out.println("DownLoadSize: " + downLoad.getSize());
         System.out.println("MusicFolderSize: " + music.getSize());
+
+        PrintUtils.printList(downLoad);
     }
 }

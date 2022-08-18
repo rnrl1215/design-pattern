@@ -32,4 +32,8 @@ public class Directory extends Component {
     public void remove(Component component) {
         children.remove(component);
     }
+
+    public List<Component> getChildren() {
+        return children;
+    }
 }
