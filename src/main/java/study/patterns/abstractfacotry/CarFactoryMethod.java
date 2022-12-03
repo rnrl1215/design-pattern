@@ -1,7 +1,7 @@
 package study.patterns.abstractfacotry;
 
-import study.patterns.abstractfacotry.benz.BenzFactory;
 import study.patterns.abstractfacotry.bmw.BMWFactory;
+import study.patterns.abstractfacotry.benz.BenzFactory;
 import study.patterns.abstractfacotry.car.CarFactory;
 
 public class CarFactoryMethod {

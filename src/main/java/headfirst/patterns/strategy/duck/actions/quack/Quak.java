@@ -1,8 +1,8 @@
-package headfirst.patterns.duck.actions.quack;
+package headfirst.patterns.strategy.duck.actions.quack;
 
 public class Quak implements QuackBehavior{
     @Override
     public void quack() {
-        // quack
+        System.out.println("꽥");
     }
 }

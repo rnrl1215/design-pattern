@@ -1,8 +1,8 @@
-package headfirst.patterns.duck.actions.quack;
+package headfirst.patterns.strategy.duck.actions.quack;
 
 public class MuteQuack implements QuackBehavior{
     @Override
     public void quack() {
-        // mute
+        System.out.println("조용");
     }
 }

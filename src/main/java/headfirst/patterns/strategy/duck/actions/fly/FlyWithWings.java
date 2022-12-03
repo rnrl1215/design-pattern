@@ -1,4 +1,4 @@
-package headfirst.patterns.duck.actions.fly;
+package headfirst.patterns.strategy.duck.actions.fly;
 
 public class FlyWithWings implements FlyBehavior{
     @Override
