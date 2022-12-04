@@ -17,6 +17,7 @@ public class DuckTest {
 
         Duck model = new ModelDuck();
         model.performFly();
+        // 전략 패턴으로 필요한 의존성 주입
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();
     }
