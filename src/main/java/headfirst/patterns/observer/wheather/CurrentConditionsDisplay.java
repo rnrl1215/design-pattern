@@ -1,5 +1,8 @@
 package headfirst.patterns.observer.wheather;
 
+import lombok.Getter;
+
+@Getter
 public class CurrentConditionsDisplay implements Observer, DisplayElement{
     private float temperature;
     private float humidity;

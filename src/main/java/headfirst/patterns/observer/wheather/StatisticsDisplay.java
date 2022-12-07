@@ -1,5 +1,8 @@
 package headfirst.patterns.observer.wheather;
 
+import lombok.Getter;
+
+@Getter
 public class StatisticsDisplay implements Observer, DisplayElement{
     private float maxTemp = 0.0f;
     private float minTemp = 200;
