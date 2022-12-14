@@ -6,8 +6,9 @@ import headfirst.patterns.observer.wheather.WeatherData;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 public class WeatherStationTest {
+
+
 
     @Test
     void test() {
@@ -26,5 +27,6 @@ public class WeatherStationTest {
 
         Assertions.assertEquals(maxTemp,82.0);
         Assertions.assertEquals(temperature,78.0);
+
     }
 }
