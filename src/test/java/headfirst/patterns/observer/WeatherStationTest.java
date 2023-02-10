@@ -1,4 +1,4 @@
-package observer;
+package headfirst.patterns.observer;
 
 import headfirst.patterns.observer.wheather.CurrentConditionsDisplay;
 import headfirst.patterns.observer.wheather.StatisticsDisplay;

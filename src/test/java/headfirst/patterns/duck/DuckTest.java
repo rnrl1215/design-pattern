@@ -1,4 +1,4 @@
-package duck;
+package headfirst.patterns.duck;
 
 import headfirst.patterns.strategy.duck.actions.duck.Duck;
 import headfirst.patterns.strategy.duck.actions.duck.MallardDuck;

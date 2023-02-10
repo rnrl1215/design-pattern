@@ -1,7 +1,5 @@
-package decorator;
+package headfirst.patterns.decorator;
 
-import headfirst.patterns.decorator.Mocha;
-import headfirst.patterns.decorator.Whip;
 import headfirst.patterns.decorator.coffee.Beverage;
 import headfirst.patterns.decorator.coffee.DarkRoast;
 import headfirst.patterns.decorator.coffee.Espresso;
