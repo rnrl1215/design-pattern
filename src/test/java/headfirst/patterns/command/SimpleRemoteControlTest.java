@@ -13,11 +13,22 @@ class SimpleRemoteControlTest {
         GarageDoor garageDoor = new GarageDoor();
 
         LightOnCommand lightOnCommand = new LightOnCommand(light);
+/*
         simpleRemoteControl.setCommand(lightOnCommand);
         simpleRemoteControl.pressButton();
 
+*/
+        LightOffCommand lightOffCommand = new LightOffCommand(light);
+/*
+
         GarageDoorOpenCommand garageDoorOpenCommand = new GarageDoorOpenCommand(garageDoor);
         simpleRemoteControl.setCommand(garageDoorOpenCommand);
-        simpleRemoteControl.pressButton();
+        simpleRemoteControl.pressButton()*/;
+
+        RemoteController remoteController = new RemoteController();
+        remoteController.setCommand(0,lightOnCommand,  lightOffCommand);
+        remoteController.onButtonWasPushed(0);
+        remoteController.offButtonWasPushed(0);
+
     }
 }
