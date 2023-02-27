@@ -26,7 +26,7 @@ class SimpleRemoteControlTest {
         simpleRemoteControl.pressButton()*/;
 
         RemoteController remoteController = new RemoteController();
-        remoteController.setCommand(0,lightOnCommand,  lightOffCommand);
+        remoteController.setCommand(0, () -> light.on(),  () -> light.off());
         remoteController.onButtonWasPushed(0);
         remoteController.offButtonWasPushed(0);
 
